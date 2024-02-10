@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+/* background-color: dimgrey;*/
+ background-image: url("pinky.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerbackground{
+    background-color: dimgrey;
+    padding: 40px;
+    border-radius: 10px;
+     background: linear-gradient(to bottom right, #0000, #0000 30%, #493 150%, #333); /* Create a diagonal gradient */
+   
+
+}
+.center-box {
+      background-color: black;
+
+
+    padding: 20px;
+    border-radius: 10px;
+    width: 1400px;
+    height:1500px;
+    margin: 50px auto;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 80px; /* Adjust the size of your logo */
+    height: auto;
+    border-radius: 50%;
+ margin-right: 200px; /* Add right margin to create space between the logo and navigation */
+    float: left; /* Float the logo to the left */
+   margin-top: .5px;
+
+}
+.logo img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover; /* Maintain the aspect ratio and cover the circle */
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+
+    
+}
+
+
+nav a:hover {
+     transform: scale(1.1); /* Scale the anchor element on hover */
+    color: #18e51d; /* Change text color on hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+nav li {
+    margin-right: 50px;
+
+}
+
+
+/* Style for the active link */
+nav a.active {
+    color: #18e51d; 
+}
+h2{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+h2 p {
+    font-size: 2.5em; /* Adjust the font size as needed */
+
+    color: whitesmoke;
+    margin-bottom: -20px;
+}
+.intro-text{
+
+    font-size: 1.5em;
+
+}
+.developer-text {
+    color: #18e51d; 
+    /* You can also add additional styling properties if needed */
+}
+.details{
+    margin-top: 50px;
+    color: white;
+    font-size: 1em;
+}
+.big-picture {
+    width: 300px; /* Set the width of your big picture */
+    height: auto;
+    float: right;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.circle {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: right;
+    margin-right: 250px;
+    margin-top: -250px;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain the aspect ratio and cover the circle */
+}
+.socials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 87.5px;
+    width:500px;
+
+    
+}
+.socials img {
+     
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius:80%;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 191, 255, 1); /* Adjust color and intensity as needed */
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+   
+    
+    width: 80%;
+    margin-left: auto; /* Push the element to the right */
+    margin-right: auto; /* Push the element to the left */
+    margin-top: 50px;
+}
+
+.category {
+
+
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+
+}
+
+.pattern {
+     margin-top: 10px;
+    display: table-column;
+    justify-content: space-between;
+    float: right;
+    margin-right: -100px;
+    width: 10%;
+   
+}
+
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add margin-top for spacing between dots */
+}
+.category.highlighted {
+            background-color: #2ECC71; /* Highlight color */
+            transform: scale(1.1); /* Increase size by 10% */
+        }
+
+.dot.highlighted {
+    background-color: #18e51d; /* Highlight color */
+}
+.thingsIdo{
+    background-color: dimgrey;
+    background: linear-gradient(to bottom right, #0000, #0000 10%, #293 100%, #393); /* Create a diagonal gradient */
+    width: 200px;
+    padding: 50px;
+   color: whitesmoke;
+  text-align: center;
+
+ 
+ border-radius: 20px;
+ margin-left: auto; /* Push the element to the right */
+    margin-right: auto; /* Push the element to the left */
+    margin-top: 220px; /* Adjust this value to your desired margin-top */
+
+
+
+
+}
+
+
+
+.web-dev {
+    height:200px ;
+    padding: 50px;
+    margin: 10px;
+    background-color:whitesmoke;
+}
+
+.game-dev  {
+height:200px ;
+    padding: 50px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+.software-dev{
+    height:200px ;
+    padding: 50px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
